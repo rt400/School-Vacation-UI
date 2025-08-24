@@ -53,7 +53,7 @@ If you have the old version installed via YAML, you **must remove your old confi
 ### Manual Installation
 
 1. Download the latest release from [GitHub releases](https://github.com/rt400/School-Vacation-UI/releases)
-2. Extract the files to your `custom_components/school_holidays/` directory
+2. Extract the files to your `custom_components/school_holidays-ui/` directory
 3. Restart Home Assistant
 
 ---
@@ -251,7 +251,7 @@ logger:
 ## Data Source
 
 This integration uses official Israeli school vacation data maintained at:\
-[https://github.com/rt400/School-Vacation-UI/blob/master/data.json](https://github.com/rt400/School-Vacation/blob/master/data.json)
+[https://github.com/rt400/School-Vacation-UI/blob/master/data.json](https://github.com/rt400/School-Vacation-UI/blob/master/data.json)
 
 Data is automatically updated and cached locally.
 
