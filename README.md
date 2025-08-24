@@ -1,8 +1,8 @@
 # Israel School Holidays - Home Assistant Integration
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
-[![GitHub release](https://img.shields.io/github/v/release/rt400/School-Vacation-UI)](https://github.com/rt400/School-Vacation-UI/releases)
-[![License](https://img.shields.io/github/license/rt400/School-Vacation-UI)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/rt400/School-Vacation)](https://github.com/rt400/School-Vacation/releases)
+[![License](https://img.shields.io/github/license/rt400/School-Vacation)](LICENSE)
 
 &#x20;&#x20;
 
@@ -44,7 +44,7 @@ If you have the old version installed via YAML, you **must remove your old confi
 1. Open HACS in Home Assistant
 2. Go to **Integrations**
 3. Click the three dots in the top right corner → **Custom repositories**
-4. Add this repository URL: `https://github.com/rt400/School-Vacation-UI`
+4. Add this repository URL: `https://github.com/rt400/School-Vacation`
 5. Select **Integration** as the category
 6. Click **Add**
 7. Find **Israel School Holidays** in HACS and install it
@@ -52,8 +52,8 @@ If you have the old version installed via YAML, you **must remove your old confi
 
 ### Manual Installation
 
-1. Download the latest release from [GitHub releases](https://github.com/rt400/School-Vacation-UI/releases)
-2. Extract the files to your `custom_components/school_holidays-ui/` directory
+1. Download the latest release from [GitHub releases](https://github.com/rt400/School-Vacation/releases)
+2. Extract the files to your `custom_components/school_holidays/` directory
 3. Restart Home Assistant
 
 ---
@@ -251,7 +251,7 @@ logger:
 ## Data Source
 
 This integration uses official Israeli school vacation data maintained at:\
-[https://github.com/rt400/School-Vacation-UI/blob/master/data.json](https://github.com/rt400/School-Vacation-UI/blob/master/data.json)
+[https://github.com/rt400/School-Vacation/blob/master/data.json](https://github.com/rt400/School-Vacation/blob/master/data.json)
 
 Data is automatically updated and cached locally.
 
@@ -271,15 +271,15 @@ MIT License – see [LICENSE](LICENSE) file.
 
 ## Support
 
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/rt400/School-Vacation-UI/issues)
-- 💡 **Feature Requests**: [GitHub Issues](https://github.com/rt400/School-Vacation-UI/issues)
-- 📖 **Documentation**: [GitHub Wiki](https://github.com/rt400/School-Vacation-UI/wiki)
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/rt400/School-Vacation/issues)
+- 💡 **Feature Requests**: [GitHub Issues](https://github.com/rt400/School-Vacation/issues)
+- 📖 **Documentation**: [GitHub Wiki](https://github.com/rt400/School-Vacation/wiki)
 
 ---
 
 ## Changelog
 
-**Version 1.0.0**
+**Version 3.0.0**
 
 - Complete rewrite as a modern Home Assistant integration
 - Added HACS support
