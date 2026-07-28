@@ -1,7 +1,7 @@
 """Constants for the Israel School Holidays UI integration."""
 
 DOMAIN = "school_holidays_ui"
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 
 # Configuration keys
 CONF_ELEMENTARY_SCHOOL = "elementary_school"
