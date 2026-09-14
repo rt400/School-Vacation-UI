@@ -1,7 +1,18 @@
 """Constants for the Israel School Holidays UI integration."""
 
+import json
+from pathlib import Path
+
 DOMAIN = "school_holidays_ui"
-VERSION = "1.0.2"
+
+# שליפת הגרסה באופן דינמי מקובץ ה-manifest.json
+try:
+    manifest_path = Path(__file__).parent / "manifest.json"
+    with open(manifest_path, encoding="utf-8") as f:
+        manifest_data = json.load(f)
+        VERSION = manifest_data.get("version", "unknown")
+except Exception:
+    VERSION = "unknown"
 
 # Configuration keys
 CONF_ELEMENTARY_SCHOOL = "elementary_school"
